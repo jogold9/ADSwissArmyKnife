@@ -6,6 +6,9 @@
 
 #*********************************************
 
+# Add Active Module for Powershell if this hasn't been done already
+#Add-WindowsFeature RSAT-AD-Powershell
+
 # Add user department & job title
 $user = Read-Host "Enter the user name"
 $department = Read-Host "Enter the department name"
